@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 1280px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nav{
+	width: 100%;
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 20px;
+	padding-left: 20px;
+	background:#010031;
+	flex-direction:row;
+}
+.devcg{
+	width: 20%;
+	font-size:30px;
+	color: white;
+}
+.devcg:hover{
+	color: lightblue;
+}
+.spd{
+	color: skyblue;
+}
+.spd:hover{
+	color: white;
+}
+.items_nav{
+	width: 45%;
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;	
+}
+.nav_item{
+	width: 27%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50px;
+}
+.nav_a{
+	color: #FDFEFF;
+    font-size:17px;
+    text-decoration: none;
+}
+.nav_a:hover{
+	color: skyblue;
+	text-decoration: underline skyblue;
+}
+.nav_a2{
+	color: #FDFEFF;
+    font-size:17px;
+    text-decoration: none;
+}
+.nav_a2:hover{
+	color: skyblue;
+	text-decoration: underline skyblue;
+}
+.nav_a3{
+	color: #FDFEFF;
+    font-size:17px;
+    text-decoration: none;
+}
+.nav_a3:hover{
+	color: skyblue;
+	text-decoration: underline skyblue;
+}
+.header{
+	background: #131376;
+	width: 100%;
+	display: flex;
+	height: auto;
+	justify-content: space-between;
+	align-items: center;
+}
+h1{  
+	 margin-left:60px;
+	 font-size:28px;
+     font-family: "Krona One", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     color: white;
+     width: 100%;
+     padding-top: 20px;
+} 
+.d1{
+	height: 430px;
+	width: 38%;
+	justify-content: flex-end;
+}
+.hblock{
+	width: 40%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 160px;
+	flex-wrap: wrap;
+}
+.pi{
+	color: white;
+	font-size:20px;
+	width: 100%;
+	padding-top: 15px;
+	margin-left:60px;
+}
+.main{
+	width: 100%;
+	height: auto;
+	background: #131376;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.h21{
+	font-weight: bold;
+	font-size:35px;
+	color: white;
+	padding-top: 40px;
+	width: 100%;
+	text-align: center;
+}
+.d2{
+	height: 350px;
+	width: 25%;
+}
+.p2{
+    color: #C5CED4;
+    font-size: 25px;
+    width: 58%;
+    padding-bottom: 70px;
+    padding-left: 30px;
+}
+.aside{
+	background: #131376;
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.pai{
+	color:white;
+	text-align:center;
+	width: 80%;
+	font-size:20px;
+}
+.aside_item{
+	background:#318CE7;
+	flex-wrap:wrap;
+	width: 27%;
+	height: 350px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.aside_item:hover{
+	height: 355px;
+	background: #073980;
+}
+.frontend{
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+}
+.aside_buttons{
+	width: 25%;
+	height: 50px;
+}	
+.story_web{
+	display: flex;
+	width: 100%;
+	flex-wrap:wrap;
+	align-items: center;
+	justify-content:center;
+	flex-wrap:wrap;
+	background: #131376;
+	height: auto;
+}
+.web_planet{
+	height: 220px;
+	width: 25%;
+}	
+
+.hstory{
+	width: 50%;
+	color:white;
+	font-size:33px;
+	  font-family: "Krona One", sans-serif;
+      font-weight: 400;
+  font-style: normal;
+}
+.head{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 50px;
+}
+.story{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: #131376;
+	flex-wrap:wrap;
+}
+.story1{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 50px;
+}
+.story2{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 50px;
+}
+.story3{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 50px;
+}
+.story4{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 50px;
+}
+.n1{
+	height:200px ;
+	width: 25%;
+}
+.ps1{
+	width: 60%;
+	color: #FFFFFF;
+	font-size:24px;
+}
+.ps2{
+	width: 60%;
+	color: #FFFFFF;
+	font-size:24px;
+}
+.ps3{
+	width: 60%;
+	color: #FFFFFF;
+	font-size:24px;
+}
+.n2{
+	height:200px ;
+	width: 25%;
+}
+.n3{
+	height:200px ;
+	width: 25%;
+}
+.n4{
+	height:200px ;
+	width: 25%;
+}
+.ps4{
+	width: 60%;
+	color: #FFFFFF;
+	font-size:24px;
+}
+.ps5{
+	width: 60%;
+	color: #FFFFFF;
+	font-size:24px;
+}
+.n5{
+	height:200px ;
+	width: 25%;
+}
+.ps5{
+		width: 60%;
+	color: #FFFFFF;
+	font-size:24px;
+}
+.story5{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 50px;
+}
+.story6{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 50px;
+}
+.n6{
+	height:200px ;
+	width: 25%;
+}
+.ps6{
+	width: 60%;
+	color: #FFFFFF;
+	font-size:24px;
+}
+.footer{
+	width: 100%;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #131376;
+	flex-wrap:wrap;
+}
+.ftext{
+   width: 100%;
+   height: 50%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   border-bottom: 2px solid white;
+}
+.ft1{
+   color: #FFFFFF;
+   font-size:18px;
+   font-weight: lighter;
+}
+.ft2{
+   color: #FFFFFF;
+   font-size:18px;
+   font-weight: lighter;
+}
+.ft3{
+   color: #FFFFFF;
+   font-size:18px;
+   font-weight: lighter;
+}
+.ft4{
+   color: #FFFFFF;
+   font-size:18px;
+   font-weight: lighter;
+}
+.ft5{
+   color: #FFFFFF;
+   font-size:18px;
+   font-weight: lighter;
+}
+.f{
+	font-size:13px;
+}
+.ff{
+   font-size:13px;
+   color: #FFFFFF;
+   font-weight: lighter;
+   text-decoration: none;
+}
+.bp{
+	width: 100%;
+	color: #CFBFD7;
+	text-align:center;
+}
+.sss{
+	border: 3px solid #318CE7;
+	padding-top: 35px;
+	background-attachment: #131376; ;
+}
+#go-top {
+  position: fixed; 
+  bottom: 25px; 
+  right: 10px; 
+  cursor:pointer; 
+  display:none;
+  width: 100px;
+  height: 100px;
+}
+.ii1{
+    width: 100%;
+    height: 100px ;
+}

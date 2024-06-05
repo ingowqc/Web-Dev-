@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 1280px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #131376;
+}
+.nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    background:#010031;
+    flex-direction:row;
+}
+.devcg{
+    width: 20%;
+    font-size:30px;
+    color: white;
+}
+.devcg:hover{
+    color: lightblue;
+}
+.spd{
+    color: skyblue;
+}
+.spd:hover{
+    color: white;
+}
+.items_nav{
+    width: 45%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;    
+}
+.nav_item{
+    width: 27%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.nav_a{
+    color: #FDFEFF;
+    font-size:17px;
+    text-decoration: none;
+}
+.nav_a:hover{
+    color: skyblue;
+    text-decoration: underline skyblue;
+}
+.nav_a2{
+    color: #FDFEFF;
+    font-size:17px;
+    text-decoration: none;
+}
+.nav_a2:hover{
+    color: skyblue;
+    text-decoration: underline skyblue;
+}
+.nav_a3{
+    color: #FDFEFF;
+    font-size:17px;
+    text-decoration: none;
+}
+.nav_a3:hover{
+    color: skyblue;
+    text-decoration: underline skyblue;
+}
+.header{
+    width: 100%;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+     font-size:28px;
+     font-family: "Krona One", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     color: white;
+     width: 100%;
+     padding-top: 20px;
+} 
+.d1{
+    height: 430px;
+    width: 38%;
+    justify-content: flex-end;
+}
+.hblock{
+    width: 40%;
+    margin-left: 60px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 160px;
+    flex-wrap: wrap;
+}
+.pi{
+    color: white;
+    font-size:20px;
+    width: 100%;
+    padding-top: 15px;
+}
+main{
+    width: 100%;
+    height: auto;
+    color: white;
+    padding: 35px;
+}
+main h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+main p{
+    margin-bottom: 80px;
+    text-align: center
+}
+.main_section-1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main_section-2{
+    width: 100%;
+    height: 550px;
+    padding-left: 35px;
+
+    
+    font-size: 20px;
+    line-height: 1.4;
+    background-size: 100% 100%;
+    background: url(https://uaspectr.com/wp-content/uploads/2019/07/1_ul3RsMeBo2H_PS2oduGGig.png);
+}
+.main_section-3{
+    width: 100%;
+    height: 500px;
+    font-size: 20px;
+    padding: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.main_section-3 h2{
+    font-size: 35px;
+}
+.section_imgs{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section_line{
+    width: 80%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.line{
+    width: 43%;
+    height: auto;
+    border-top: 1px solid rgb(255, 255, 255);
+}
+.number{
+    width: 5%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    color: rgb(173, 173, 173);
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    border-radius: 100%;
+}
+.section-3_text{
+    width: 100%;
+    height: 120px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section-3_text h3{
+    margin-bottom: 3px;
+}
+.section-3_text p{
+    width: 30%;
+    height: 10px;
+    font-size: 12px;
+}
+.section-3_text-1{
+    width: 33%;
+    height: 100px;
+    line-height: 16px;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-3_text-2{
+    width: 33%;
+    height: 100px;
+    line-height: 16px;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-3_text-3{
+    width: 33%;
+    height: 100px;
+    line-height: 16px;
+    font-size: 17px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-3_text-1>ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.2;
+}
+.section-3_text-2>ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.2;
+}
+.section-3_text-3>ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.2;   
+}
+footer{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border-top: 1px solid white;
+}
+a{  
+    color: white;
+    text-decoration: none;
+}
+.top_text{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottom_text{
+    width: 100%;
+    height: 25px;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    color: #A8A8A8;
+}
+.section-1_item{
+    width: 30%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+circle-progress::part(base)
+{
+width: 200px; height: auto;
+}
+circle-progress::part(value)
+{
+    stroke-width: 6px;
+    stroke: hsl(210, 100%, 45%);
+}
+circle-progress::part(text)
+{
+    font-family: "Georgia";
+    font-size: 13px;
+    fill: rgb(255, 255, 255);
+}
+circle-progress::part(circle)
+{
+    stroke: rgb(0, 1, 59);
+    stroke-width: 10px;
+    fill: #18009e;
+}   
+#go-top {
+  position: fixed; 
+  bottom: 25px; 
+  right: 10px; 
+  cursor:pointer; 
+  display:none;
+  width: 100px;
+  height: 100px;
+}
+.ii1{
+    width: 100%;
+    height: 100px ;
+}
